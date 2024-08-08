@@ -22,7 +22,7 @@ app.post('/send-email', async (req, res) => {
 
   const mailOptions = {
     from: 'biztoindia5@gmail.com',
-    to: 'info@saipropmall.com',
+    to: 'info@saiconsultancyservice.in',
     subject: subject,
     text: text,
   };
@@ -43,7 +43,7 @@ app.post('/send-custom-email', async (req, res) => {
 
   const mailOptions = {
     from: 'biztoindia5@gmail.com',
-    to: 'info@saipropmall.com',
+    to: 'info@saiconsultancyservice.in',
     subject: subject,
     html: html,
   };
